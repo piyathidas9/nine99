@@ -13,21 +13,21 @@ function App() {
         <ImageProfile image="/src/assets/react.svg" />
 
         <Title title="Piyathida Sankaew (nine)">
-          <h3>ตำแหน่ง : Frontend</h3>
+          <h3>ตำแหน่ง : it</h3>
         </Title>
 
         <Title title="Contact">
      
-          <p>วันที่ปัจจุบัน: {moment().format("D MMM YYYY")}</p>
-          <p>วันเกิด: {moment("1994/07/01").format("D MMM YYYY")}</p>
+          
+          <p>วันเกิด: {moment("2003/03/05").format("D MMM YYYY")}</p>
           <p style={{ display: hide ? 'none': 'block'}} >
-            Tel : +66877543002
+            Tel : +66640787633
           </p>
           <button onClick={() => setHide(!hide)}>
             {hide ? 'Show': 'Hide'}
           </button>
-          <p>Email : mattssru@gmail.com</p>
-          <p>www.mattssru@gmail.com</p>
+          <p>Email : ninepytd529@gmail.com</p>
+          
         </Title>
     
         <Title title="Education">
@@ -38,19 +38,17 @@ function App() {
 
       <div className="rightPort">
         <Title title="Profile">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quas natus soluta debitis nihil placeat, molestiae quae distinctio. Corporis dolores sit similique vitae dignissimos rerum saepe dolorem laboriosam rem impedit.</p>
+          <p>ปิยะธิดา สานแก้ว กำลังหาประสบการณ์ฝึกงานด้านไอทีค่ะ</p>
         </Title>
 
         <Title title="Work Experience">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid veritatis eligendi cumque, laborum dolore error at, excepturi eum distinctio iste facere obcaecati natus impedit eaque eveniet nulla? Cupiditate, blanditiis in?</p>
+          <p>สามารถใช้ microsoft word & microsoft powerpoint ได้</p>
         </Title>
 
         <Title title="Skills">
-          <p>HTML / CSS / JS</p>
-          <p>React.js</p>
-          <p>Next.js</p>
-          <p>Vue.js</p>
-          <p>Git</p>
+          <p>อินโฟกราฟิก</p>
+          <p>powerpoint</p>
+         
         </Title>
       </div>
     </main>
